@@ -11,18 +11,17 @@ const homeTitleSection = {
 }
 
 const aboutSection = {
-    // display: 'flex',
-    // justifyContent: 'center',
-    // alignItems: 'center',
+    display: 'flex',
     textAlign: 'center',
     margin: 'auto',
-    // marginRight: '20px',
-    // marginLeft: '20px',
     maxWidth: '900px',
+    marginRight: '10px',
+    marginLeft: '10px',
 }
 
 const cardContainer = {
     display: 'flex',
+    flexWrap: 'wrap',
     justifyContent: 'space-around',
     marginRight: '20px',
     marginLeft: '20px',
@@ -35,8 +34,8 @@ const sectionTitle = {
 
 const cardStyle = {
     maxWidth: '600px',
-    minWidth: '300px',
     marginBottom: '30px',
+    flexSize: '200px',
 }
 
 function Projects() {
@@ -47,13 +46,19 @@ function Projects() {
             </h2>
             <div style={ cardContainer }>
                 <Card title='Toque' style={ cardStyle }>
-                    Com S 309 project built with anger and tears
+                    Project built for Com S 309 at Iowa State University. This project was built entirely with Javascript using Express, Sequelize, React, and Redux. The purpose was to create a recipe sharing site where users could log on and create and view different recipes.
+                    <br /><br />
+                    The project repository can be viewed here: <a href="https://github.com/mrtalley/toque">https://github.com/mrtalley/toque</a>
                 </Card>
                 <Card title='dungeon-crawler' style={ cardStyle }>
-                    Com S 327 project built with excitement, tears, and C++
+                    Project built over the course of a semester for Com S 327. This project was a terminal-based dungeon crawler game similar to the old NetHack. This project was built in C and C++.
+                    <br /><br />
+                    Project repository can be viewed here: <a href="https://github.com/mrtalley/dungeon-crawler">https://github.com/mrtalley/dungeon-crawler</a>
                 </Card>
                 <Card title='GG' style={ cardStyle }>
-                    My friend will put art on this thing if I ever finish it
+                    Website being created for my friend Gretchen to showcase her different styles the different art styles she explores. This website is being created with React and Firebase as entirely frontend application.
+                    <br/><br/>
+                    The project repository can be viewed here: <a href="https://github.com/mrtalley/GG">https://github.com/mrtalley/GG</a>
                 </Card>
             </div>
          </div>
@@ -113,9 +118,7 @@ class Home extends React.Component {
                 </div>
                 <div style={ aboutSection }>
                     My name is Maxwell Talley. I am a software engineering student at Iowa State University. In my free time, I like to travel, camp, work on personal projects, hang out with friends, and learn new things. My ultimate career goal is to do something that helps to decrease suffering in the world, whether that be direct or indirectly.
-                    <br />
-                    <br />
-                    <br />
+                    <br /><br /><br />
                     My career goals include ......
                 </div>
                 <Menu
