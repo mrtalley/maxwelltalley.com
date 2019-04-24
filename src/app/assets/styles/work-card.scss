@@ -1,0 +1,32 @@
+@import './helpers/font';
+
+.card {
+    background: white;
+    margin: 10px;
+    max-width: 600px;
+}
+
+.card-margin {
+    margin: 20px;
+    border-left: 1px solid black;
+}
+
+.card-body {
+    margin: 10px;
+
+    .card-title {
+        .title-content {
+            &:first-child {
+                margin-right: 10px;
+            }
+
+            display: inline;
+        }
+    }
+
+    .content-body {
+        margin-bottom: 10px;
+    }
+}
+
+

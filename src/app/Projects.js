@@ -10,7 +10,7 @@ class Projects extends React.Component {
             <div>
                 <h2 className="sectionTitle">
                     PROJECTS WORKED ON
-            </h2>
+                </h2>
                 <div className="cardContainer">
                     <Card title='Toque' className="cardStyle">
                         Project built for Com S 309 at Iowa State University. This project was built entirely with Javascript using Express, Sequelize, React, and Redux. The purpose was to create a recipe sharing site where users could log on and create and view different recipes.

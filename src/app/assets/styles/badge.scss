@@ -1,0 +1,44 @@
+@import './helpers/colors';
+
+.badge-body {
+    display: inline-flex;
+}
+
+.badge {
+    border-radius: 2rem;
+    text-align: center;
+    margin: 5px;
+    display: inline-flex;
+}
+
+p {
+    margin: 0 10px;
+}
+
+.black {
+    background-color: $black;
+    color: white;
+}
+
+.red {
+    background-color: $red;
+    color: white;
+}
+
+.green {
+    background-color: $green;
+}
+
+.yellow {
+    background-color: $yellow;
+}
+
+.blue {
+    background-color: $blue;
+    color: white;
+}
+
+.purple {
+    background-color: $purple;
+    color: white;
+}

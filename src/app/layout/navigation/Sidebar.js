@@ -51,13 +51,13 @@ class Sidebar extends React.Component {
                 </SubMenu>
                 <SubMenu key="sub4" title={<span><Icon type="link" /><span>External Links</span></span>}>
                     <Menu.Item key="8">
-                        <a href='https://github.com/mrtalley' target='_blank'>
+                        <a href='https://github.com/mrtalley' target='_blank' rel="noopener noreferrer">
                             <Icon type='github' />
                             <span>GitHub</span>
                         </a>
                     </Menu.Item>
                     <Menu.Item key="9">
-                        <a href='https://linkedin.com/in/maxtalley' target='_blank'>
+                        <a href='https://linkedin.com/in/maxtalley' target='_blank' rel="noopener noreferrer">
                             <Icon type='linkedin' />
                             <span>LinkedIn</span>
                         </a>

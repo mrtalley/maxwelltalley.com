@@ -5,8 +5,10 @@ import { Layout } from 'antd';
 import Sidebar from './layout/navigation/Sidebar';
 import Router from './layout/Router';
 
+import './assets/styles/layout.scss';
+
 const {
-    Header, Content, Footer, Sider
+    Content, Sider
 } = Layout;
 
 class Structure extends React.Component {

@@ -30,15 +30,6 @@ class Home extends React.Component {
                         My career goals include ......
                     </div>
                 </div>
-                {/* <Menu
-                    onClick={ this.handleClick }
-                    selectedKeys={ [this.state.current] }
-                    mode='horizontal'
-                >
-                    <Menu.Item key='projects'>Projects</Menu.Item>
-                    <Menu.Item key='work-experience'>Work Experience</Menu.Item>
-                </Menu>
-                <MenuToLoad menuState={ this.state.current } /> */}
             </div>
         );
     }
