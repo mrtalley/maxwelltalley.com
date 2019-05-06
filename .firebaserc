@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "personal-site-dev"
+    "prod": "personal-website-c0001",
+    "dev": "personal-site-dev"
   }
 }
