@@ -34,6 +34,7 @@ class WorkCard extends React.Component {
                         </div>
                         <div className='small-title'>{this.props.date}</div>
                         <div className='body-text content-body'>
+                            {/* Maybe make it so you can surround text in <WorkCard> and have it go to the body */}
                             {this.props.body}
                         </div>
                         <div className='small-title'>Technologies</div>
