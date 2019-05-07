@@ -47,7 +47,7 @@ class Sidebar extends React.Component {
                             </span>
                         </a>
                     </Menu.Item>
-                    <Menu.Item key="4">
+                    <Menu.Item key="5">
                         <a href='/pdf/mrtalley_gen_ed_essay.pdf' target='_blank' rel="noopener noreferrer">
                             <Icon type="file-word" />
                             <span>
@@ -55,7 +55,7 @@ class Sidebar extends React.Component {
                             </span>
                         </a>
                     </Menu.Item>
-                    <Menu.Item key="4">
+                    <Menu.Item key="6">
                         <a href='/pdf/mrtalley_ethics_essay.pdf' target='_blank' rel="noopener noreferrer">
                             <Icon type="file-word" />
                             <span>
@@ -63,7 +63,7 @@ class Sidebar extends React.Component {
                             </span>
                         </a>
                     </Menu.Item>
-                    <Menu.Item key="4">
+                    <Menu.Item key="7">
                         <a href='/pdf/mrtalley_cumulative_reflection.pdf' target='_blank' rel="noopener noreferrer">
                             <Icon type="file-word" />
                             <span>
