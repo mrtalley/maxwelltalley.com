@@ -40,14 +40,37 @@ class Sidebar extends React.Component {
                 </Menu.Item>
                 <SubMenu key="sub2" title={<span><Icon type="file-text" /><span>Files</span></span>}>
                     <Menu.Item key="4">
-                        <Icon type="file-word" />
-                        <span>Resume</span>
+                        <a href='/pdf/mrtalley_resume_v1.pdf' target='_blank' rel="noopener noreferrer">
+                            <Icon type="file-word" />
+                            <span>
+                                Resume
+                            </span>
+                        </a>
                     </Menu.Item>
-                    <SubMenu key="sub3" title="SE 494">
-                        <Menu.Item key="5">Gen Ed Reflection</Menu.Item>
-                        <Menu.Item key="6">Ethics Essay</Menu.Item>
-                        <Menu.Item key="7">Cumulative Reflection</Menu.Item>
-                    </SubMenu>
+                    <Menu.Item key="4">
+                        <a href='/pdf/mrtalley_gen_ed_essay.pdf' target='_blank' rel="noopener noreferrer">
+                            <Icon type="file-word" />
+                            <span>
+                                Gen Ed Reflection
+                            </span>
+                        </a>
+                    </Menu.Item>
+                    <Menu.Item key="4">
+                        <a href='/pdf/mrtalley_ethics_essay.pdf' target='_blank' rel="noopener noreferrer">
+                            <Icon type="file-word" />
+                            <span>
+                                Ethics Essay
+                            </span>
+                        </a>
+                    </Menu.Item>
+                    <Menu.Item key="4">
+                        <a href='/pdf/mrtalley_cumulative_reflection.pdf' target='_blank' rel="noopener noreferrer">
+                            <Icon type="file-word" />
+                            <span>
+                                Cumulative Reflection
+                            </span>
+                        </a>
+                    </Menu.Item>
                 </SubMenu>
                 <SubMenu key="sub4" title={<span><Icon type="link" /><span>External Links</span></span>}>
                     <Menu.Item key="8">
